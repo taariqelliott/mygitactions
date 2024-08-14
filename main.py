@@ -7,8 +7,10 @@ def hello():
     """Prints a greeting message."""
     print("hi")
 
+
 def bye():
     """Prints a farewell message."""
     print("bye")
+
 
 print(hello())
