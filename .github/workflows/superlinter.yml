@@ -16,4 +16,8 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
