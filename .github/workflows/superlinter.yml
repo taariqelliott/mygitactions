@@ -1,0 +1,16 @@
+name: Super-Linter
+
+on: push
+
+jobs:
+  super-lint:
+    name: Line code base
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code 
+        uses: actions/checkout@v2
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  
