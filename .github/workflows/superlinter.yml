@@ -4,7 +4,7 @@ on: push
 
 jobs:
   super-lint:
-    name: Line code base
+    name: Lint code base
     runs-on: macos-latest
     steps:
       - name: Checkout code 
